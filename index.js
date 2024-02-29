@@ -33,11 +33,7 @@ const useFlexbox = (elements) => {
 
         const name = createElement("h2", cat.name, "cat-name")
         const flexbox1 = useFlexbox([name])
-        if (cat.favourite) {
-            const star = createElement("img", null, "cat-star")
-            star.setAttribute("src", "./star.png")
-            appendChild(flexbox1, [star])
-        }
+        
 
         const age = createElement("p", `Возраст: ${cat.age}`, "cat-age")
         const rate = createElement("p", `Рейтинг: ${cat.rate}`, "cat-rate")
