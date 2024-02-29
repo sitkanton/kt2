@@ -1,4 +1,4 @@
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,16 +28,21 @@ body {
     display: flex;
     gap: 7px;
     align-items: center;
-  
 }
 
-.cat-img {
+.cat-img,
+.cat-star {
     object-fit: cover;
 }
 
 .cat-img {
     width: 200px;
     height: 200px;
+}
+
+.cat-star {
+    width: 14px;
+    height: 14px;
 }
 
 .cat-desc {
