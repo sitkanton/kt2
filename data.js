@@ -82,4 +82,4 @@ const cats = [
     }
 ]
 
-//export default cats
+export default cats
