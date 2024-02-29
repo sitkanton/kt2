@@ -31,19 +31,13 @@ body {
     background-color:pink;
 }
 
-.cat-img,
-.cat-star {
+.cat-img{
     object-fit: cover;
 }
 
 .cat-img {
     width: 200px;
     height: 200px;
-}
-
-.cat-star {
-    width: 14px;
-    height: 14px;
 }
 
 .cat-desc {
