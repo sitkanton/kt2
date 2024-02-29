@@ -33,10 +33,7 @@ const useFlexbox = (elements) => {
 
         const name = createElement("h2", cat.name, "cat-name")
         const flexbox1 = useFlexbox([name])
-        if (cat.favourite) {
-          
-        }
-
+       
         const age = createElement("p", `Возраст: ${cat.age}`, "cat-age")
         const rate = createElement("p", `Рейтинг: ${cat.rate}`, "cat-rate")
         const flexbox2 = useFlexbox([age, rate])
